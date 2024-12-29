@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: fontone;
+}
+.clearfix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container 
+{
+    text-align: center;
+}
+
+#main-head 
+{
+    text-align:left;
+    background-color: brown;
+    padding: 40px;
+    padding-left: 90px;
+    color: white;
+    letter-spacing: 3px;
+}
+#nav-bar 
+{
+    padding: 10px;
+    padding-left: 75px;
+    text-align: left;
+    margin: auto;
+    background: chocolate;
+}
+#nav-bar a
+{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: greenyellow;
+}
+#nav-bar a:hover
+{
+    background: lightblue;
+}
+#banner
+{
+    background: url(../images/banner.jpg);
+    color: lightgreen;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+#pigpen
+{
+    font-family: fonttwo;
+    padding-top: 10px;
+}
+.title
+{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-style: oblique;
+}
+.content
+{
+    width: 80%;
+    margin: auto;
+    font-family: fontone;
+    padding: 30px;
+}
+.label
+{
+    float: left;
+    width: 30%;
+}
+.text
+{
+    float: right;
+    width: 60%;
+}
+input[type="submit"]
+{
+    padding: 10px 20px;
+    background: lightsalmon;
+    border: 0;
+    margin-top: 20px;
+}
+input[type="submit"]:hover
+{
+    background: lime;
+}
+#encodedText
+{
+    font-family: fonttwo;
+}
+.left
+{
+    float: left;
+    width: 70%;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.right
+{
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: justify;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+footer
+{
+    background: brown;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+footer a:hover
+{
+    color: yellow;
+    text-decoration: none;
+    padding: 20px;
+}
+@media(max-width: 900px)
+{
+    .left
+    {
+        float: none;
+        width: 100%;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    .right
+    {
+        float: none;
+        width: 100%;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+}
+@font-face 
+{
+    font-family: fontone;
+    src: url(../fonts/CascadiaCode.ttf);
+}
+@font-face 
+{
+    font-family: fonttwo;
+    src: url(../fonts/PigpenCipher.otf);
+}
